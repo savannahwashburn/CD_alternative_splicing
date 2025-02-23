@@ -11,12 +11,12 @@ The raw data was (post-operative biopsies and publicly available data) processed
 ## Isoform Fractions
 
 Isoform fractions were calculated as normalized isoform counts / normalized total gene counts 
--filtered if gene is not expression
-->95% of individuals expression esoform as the only isoform of this gene 
-->95% of indivuduals do not express transcript 
+* filtered if gene is not expression
+* >95% of individuals expression esoform as the only isoform of this gene 
+* >95% of indivuduals do not express transcript 
 
 ## Differentially used Isoform Fractions (dIF)
 mean IF in recurring disease - mean IF in non-recurring disease for each isoform
 or 
 mean IF in rectum - mean IF in ileum for each isoform 
--considered differentially used if dIF > +0.1 or < -0.1 with FDR adjusted p-value < 0.05
+* considered differentially used if dIF > +0.1 or < -0.1 with FDR adjusted p-value < 0.05
