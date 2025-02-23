@@ -12,8 +12,8 @@ The raw data was (post-operative biopsies and publicly available data) processed
 
 Isoform fractions were calculated as normalized isoform counts / normalized total gene counts 
 * filtered if gene is not expression
-* >95% of individuals expression esoform as the only isoform of this gene 
-* >95% of indivuduals do not express transcript 
+* filtered if >95% of individuals expression esoform as the only isoform of this gene 
+* filtered if >95% of indivuduals do not express transcript 
 
 ## Differentially used Isoform Fractions (dIF)
 mean IF in recurring disease - mean IF in non-recurring disease for each isoform
